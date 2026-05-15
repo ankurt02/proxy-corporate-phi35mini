@@ -2,7 +2,7 @@ import json
 import requests
 from http.server import BaseHTTPRequestHandler
 
-HF_SPACE_URL = "https://ankurt02-corporate-filter-api.hf.space/rewrite"
+HF_SPACE_URL = "https://ankurt02-corporate-filter-phi35-mini-merged.hf.space"
 
 class handler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
